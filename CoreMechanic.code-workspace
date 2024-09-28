@@ -1,0 +1,865 @@
+{
+	"folders": [
+		{
+			"name": "CoreMechanic",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "/mnt/Extend/Programs/unreal-engine"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "CoreMechanic Linux Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"Linux",
+					"Debug",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"Linux",
+					"Debug",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CoreMechanic Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic Linux Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"Linux",
+					"Debug",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"Linux",
+					"DebugGame",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"Linux",
+					"DebugGame",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CoreMechanic Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"Linux",
+					"DebugGame",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic Linux Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"Linux",
+					"Development",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"Linux",
+					"Development",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CoreMechanic Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic Linux Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"Linux",
+					"Development",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic Linux Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"Linux",
+					"Test",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic Linux Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"Linux",
+					"Test",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CoreMechanic Linux Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic Linux Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"Linux",
+					"Test",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic Linux Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"Linux",
+					"Shipping",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic Linux Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"Linux",
+					"Shipping",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CoreMechanic Linux Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic Linux Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"Linux",
+					"Shipping",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic LinuxArm64 Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"LinuxArm64",
+					"Debug",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic LinuxArm64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"LinuxArm64",
+					"Debug",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CoreMechanic LinuxArm64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic LinuxArm64 Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"LinuxArm64",
+					"Debug",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic LinuxArm64 DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"LinuxArm64",
+					"DebugGame",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic LinuxArm64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"LinuxArm64",
+					"DebugGame",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CoreMechanic LinuxArm64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic LinuxArm64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"LinuxArm64",
+					"DebugGame",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic LinuxArm64 Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"LinuxArm64",
+					"Development",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic LinuxArm64 Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"LinuxArm64",
+					"Development",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CoreMechanic LinuxArm64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic LinuxArm64 Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"LinuxArm64",
+					"Development",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic LinuxArm64 Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"LinuxArm64",
+					"Test",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic LinuxArm64 Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"LinuxArm64",
+					"Test",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CoreMechanic LinuxArm64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic LinuxArm64 Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"LinuxArm64",
+					"Test",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic LinuxArm64 Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"LinuxArm64",
+					"Shipping",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic LinuxArm64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"LinuxArm64",
+					"Shipping",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CoreMechanic LinuxArm64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanic LinuxArm64 Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanic",
+					"LinuxArm64",
+					"Shipping",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanicEditor Linux Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanicEditor",
+					"Linux",
+					"Debug",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanicEditor Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanicEditor",
+					"Linux",
+					"Debug",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CoreMechanicEditor Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanicEditor Linux Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanicEditor",
+					"Linux",
+					"Debug",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanicEditor Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanicEditor",
+					"Linux",
+					"DebugGame",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanicEditor Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanicEditor",
+					"Linux",
+					"DebugGame",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CoreMechanicEditor Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanicEditor Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanicEditor",
+					"Linux",
+					"DebugGame",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanicEditor Linux Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanicEditor",
+					"Linux",
+					"Development",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanicEditor Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanicEditor",
+					"Linux",
+					"Development",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"CoreMechanicEditor Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			},
+			{
+				"label": "CoreMechanicEditor Linux Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"CoreMechanicEditor",
+					"Linux",
+					"Development",
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/Extend/Programs/unreal-engine"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch CoreMechanic (Debug)",
+				"request": "launch",
+				"program": "/home/main/Project/CoreMechanic/Binaries/Linux/CoreMechanic-Linux-Debug",
+				"preLaunchTask": "CoreMechanic Linux Debug Build",
+				"args": [
+				],
+				"cwd": "/mnt/Extend/Programs/unreal-engine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/Extend/Programs/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch CoreMechanic (DebugGame)",
+				"request": "launch",
+				"program": "/home/main/Project/CoreMechanic/Binaries/Linux/CoreMechanic-Linux-DebugGame",
+				"preLaunchTask": "CoreMechanic Linux DebugGame Build",
+				"args": [
+				],
+				"cwd": "/mnt/Extend/Programs/unreal-engine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/Extend/Programs/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch CoreMechanic (Development)",
+				"request": "launch",
+				"program": "/home/main/Project/CoreMechanic/Binaries/Linux/CoreMechanic",
+				"preLaunchTask": "CoreMechanic Linux Development Build",
+				"args": [
+				],
+				"cwd": "/mnt/Extend/Programs/unreal-engine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/Extend/Programs/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch CoreMechanic (Test)",
+				"request": "launch",
+				"program": "/home/main/Project/CoreMechanic/Binaries/Linux/CoreMechanic-Linux-Test",
+				"preLaunchTask": "CoreMechanic Linux Test Build",
+				"args": [
+				],
+				"cwd": "/mnt/Extend/Programs/unreal-engine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/Extend/Programs/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch CoreMechanic (Shipping)",
+				"request": "launch",
+				"program": "/home/main/Project/CoreMechanic/Binaries/Linux/CoreMechanic-Linux-Shipping",
+				"preLaunchTask": "CoreMechanic Linux Shipping Build",
+				"args": [
+				],
+				"cwd": "/mnt/Extend/Programs/unreal-engine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/Extend/Programs/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch CoreMechanicEditor (Debug)",
+				"request": "launch",
+				"program": "/mnt/Extend/Programs/unreal-engine/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
+				"preLaunchTask": "CoreMechanicEditor Linux Debug Build",
+				"args": [
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject"
+				],
+				"cwd": "/mnt/Extend/Programs/unreal-engine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/Extend/Programs/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch CoreMechanicEditor (DebugGame)",
+				"request": "launch",
+				"program": "/mnt/Extend/Programs/unreal-engine/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
+				"preLaunchTask": "CoreMechanicEditor Linux DebugGame Build",
+				"args": [
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject"
+				],
+				"cwd": "/mnt/Extend/Programs/unreal-engine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/Extend/Programs/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Launch CoreMechanicEditor (Development)",
+				"request": "launch",
+				"program": "/mnt/Extend/Programs/unreal-engine/Engine/Binaries/Linux/UnrealEditor",
+				"preLaunchTask": "CoreMechanicEditor Linux Development Build",
+				"args": [
+					"/home/main/Project/CoreMechanic/CoreMechanic.uproject"
+				],
+				"cwd": "/mnt/Extend/Programs/unreal-engine",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/Extend/Programs/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Linux Development Build",
+				"program": "/mnt/Extend/Programs/unreal-engine/Engine/Build/BatchFiles/RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"console": "internalConsole",
+				"internalConsoleOptions": "openOnSessionStart",
+				"stopAtEntry": false,
+				"cwd": "/mnt/Extend/Programs/unreal-engine"
+			}
+		]
+	}
+}

@@ -72,3 +72,9 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Content/__ExternalActors__/*
+Content/__ExternalObjects__/*
+.vscode/*
+Content/ThirdPerson/*
+Plugins/*
+Content/Characters/*
