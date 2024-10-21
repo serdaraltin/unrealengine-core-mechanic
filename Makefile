@@ -2,7 +2,7 @@
 # *DO NOT EDIT*
 
 UNREALROOTPATH = /mnt/Extend/Programs/unreal-engine
-GAMEPROJECTFILE =/home/main/Project/CoreMechanic/CoreMechanic.uproject
+GAMEPROJECTFILE =/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject
 
 TARGETS = \
 	CoreMechanic-Linux-Debug  \

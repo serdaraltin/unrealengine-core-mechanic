@@ -30,7 +30,7 @@
 					"CoreMechanic",
 					"Linux",
 					"Debug",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -47,7 +47,7 @@
 					"CoreMechanic",
 					"Linux",
 					"Debug",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -67,7 +67,7 @@
 					"CoreMechanic",
 					"Linux",
 					"Debug",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -85,7 +85,7 @@
 					"CoreMechanic",
 					"Linux",
 					"DebugGame",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -102,7 +102,7 @@
 					"CoreMechanic",
 					"Linux",
 					"DebugGame",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -122,7 +122,7 @@
 					"CoreMechanic",
 					"Linux",
 					"DebugGame",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -140,7 +140,7 @@
 					"CoreMechanic",
 					"Linux",
 					"Development",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -157,7 +157,7 @@
 					"CoreMechanic",
 					"Linux",
 					"Development",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -177,7 +177,7 @@
 					"CoreMechanic",
 					"Linux",
 					"Development",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -195,7 +195,7 @@
 					"CoreMechanic",
 					"Linux",
 					"Test",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -212,7 +212,7 @@
 					"CoreMechanic",
 					"Linux",
 					"Test",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -232,7 +232,7 @@
 					"CoreMechanic",
 					"Linux",
 					"Test",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -250,7 +250,7 @@
 					"CoreMechanic",
 					"Linux",
 					"Shipping",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -267,7 +267,7 @@
 					"CoreMechanic",
 					"Linux",
 					"Shipping",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -287,7 +287,7 @@
 					"CoreMechanic",
 					"Linux",
 					"Shipping",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -305,7 +305,7 @@
 					"CoreMechanic",
 					"LinuxArm64",
 					"Debug",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -322,7 +322,7 @@
 					"CoreMechanic",
 					"LinuxArm64",
 					"Debug",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -342,7 +342,7 @@
 					"CoreMechanic",
 					"LinuxArm64",
 					"Debug",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -360,7 +360,7 @@
 					"CoreMechanic",
 					"LinuxArm64",
 					"DebugGame",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -377,7 +377,7 @@
 					"CoreMechanic",
 					"LinuxArm64",
 					"DebugGame",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -397,7 +397,7 @@
 					"CoreMechanic",
 					"LinuxArm64",
 					"DebugGame",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -415,7 +415,7 @@
 					"CoreMechanic",
 					"LinuxArm64",
 					"Development",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -432,7 +432,7 @@
 					"CoreMechanic",
 					"LinuxArm64",
 					"Development",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -452,7 +452,7 @@
 					"CoreMechanic",
 					"LinuxArm64",
 					"Development",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -470,7 +470,7 @@
 					"CoreMechanic",
 					"LinuxArm64",
 					"Test",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -487,7 +487,7 @@
 					"CoreMechanic",
 					"LinuxArm64",
 					"Test",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -507,7 +507,7 @@
 					"CoreMechanic",
 					"LinuxArm64",
 					"Test",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -525,7 +525,7 @@
 					"CoreMechanic",
 					"LinuxArm64",
 					"Shipping",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -542,7 +542,7 @@
 					"CoreMechanic",
 					"LinuxArm64",
 					"Shipping",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -562,7 +562,7 @@
 					"CoreMechanic",
 					"LinuxArm64",
 					"Shipping",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -580,7 +580,7 @@
 					"CoreMechanicEditor",
 					"Linux",
 					"Debug",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -597,7 +597,7 @@
 					"CoreMechanicEditor",
 					"Linux",
 					"Debug",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -617,7 +617,7 @@
 					"CoreMechanicEditor",
 					"Linux",
 					"Debug",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -635,7 +635,7 @@
 					"CoreMechanicEditor",
 					"Linux",
 					"DebugGame",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -652,7 +652,7 @@
 					"CoreMechanicEditor",
 					"Linux",
 					"DebugGame",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -672,7 +672,7 @@
 					"CoreMechanicEditor",
 					"Linux",
 					"DebugGame",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -690,7 +690,7 @@
 					"CoreMechanicEditor",
 					"Linux",
 					"Development",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -707,7 +707,7 @@
 					"CoreMechanicEditor",
 					"Linux",
 					"Development",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -727,7 +727,7 @@
 					"CoreMechanicEditor",
 					"Linux",
 					"Development",
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -745,7 +745,7 @@
 			{
 				"name": "Launch CoreMechanic (Debug)",
 				"request": "launch",
-				"program": "/home/main/Project/CoreMechanic/Binaries/Linux/CoreMechanic-Linux-Debug",
+				"program": "/home/main/Project/unrealengine-core-mechanic/Binaries/Linux/CoreMechanic-Linux-Debug",
 				"preLaunchTask": "CoreMechanic Linux Debug Build",
 				"args": [
 				],
@@ -757,7 +757,7 @@
 			{
 				"name": "Launch CoreMechanic (DebugGame)",
 				"request": "launch",
-				"program": "/home/main/Project/CoreMechanic/Binaries/Linux/CoreMechanic-Linux-DebugGame",
+				"program": "/home/main/Project/unrealengine-core-mechanic/Binaries/Linux/CoreMechanic-Linux-DebugGame",
 				"preLaunchTask": "CoreMechanic Linux DebugGame Build",
 				"args": [
 				],
@@ -769,7 +769,7 @@
 			{
 				"name": "Launch CoreMechanic (Development)",
 				"request": "launch",
-				"program": "/home/main/Project/CoreMechanic/Binaries/Linux/CoreMechanic",
+				"program": "/home/main/Project/unrealengine-core-mechanic/Binaries/Linux/CoreMechanic",
 				"preLaunchTask": "CoreMechanic Linux Development Build",
 				"args": [
 				],
@@ -781,7 +781,7 @@
 			{
 				"name": "Launch CoreMechanic (Test)",
 				"request": "launch",
-				"program": "/home/main/Project/CoreMechanic/Binaries/Linux/CoreMechanic-Linux-Test",
+				"program": "/home/main/Project/unrealengine-core-mechanic/Binaries/Linux/CoreMechanic-Linux-Test",
 				"preLaunchTask": "CoreMechanic Linux Test Build",
 				"args": [
 				],
@@ -793,7 +793,7 @@
 			{
 				"name": "Launch CoreMechanic (Shipping)",
 				"request": "launch",
-				"program": "/home/main/Project/CoreMechanic/Binaries/Linux/CoreMechanic-Linux-Shipping",
+				"program": "/home/main/Project/unrealengine-core-mechanic/Binaries/Linux/CoreMechanic-Linux-Shipping",
 				"preLaunchTask": "CoreMechanic Linux Shipping Build",
 				"args": [
 				],
@@ -808,7 +808,7 @@
 				"program": "/mnt/Extend/Programs/unreal-engine/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
 				"preLaunchTask": "CoreMechanicEditor Linux Debug Build",
 				"args": [
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject"
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject"
 				],
 				"cwd": "/mnt/Extend/Programs/unreal-engine",
 				"type": "cppdbg",
@@ -821,7 +821,7 @@
 				"program": "/mnt/Extend/Programs/unreal-engine/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
 				"preLaunchTask": "CoreMechanicEditor Linux DebugGame Build",
 				"args": [
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject"
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject"
 				],
 				"cwd": "/mnt/Extend/Programs/unreal-engine",
 				"type": "cppdbg",
@@ -834,7 +834,7 @@
 				"program": "/mnt/Extend/Programs/unreal-engine/Engine/Binaries/Linux/UnrealEditor",
 				"preLaunchTask": "CoreMechanicEditor Linux Development Build",
 				"args": [
-					"/home/main/Project/CoreMechanic/CoreMechanic.uproject"
+					"/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject"
 				],
 				"cwd": "/mnt/Extend/Programs/unreal-engine",
 				"type": "cppdbg",
@@ -850,7 +850,7 @@
 				"args": [
 					"-projectfiles",
 					"-vscode",
-					"-project=/home/main/Project/CoreMechanic/CoreMechanic.uproject",
+					"-project=/home/main/Project/unrealengine-core-mechanic/CoreMechanic.uproject",
 					"-game",
 					"-engine",
 					"-dotnet"
