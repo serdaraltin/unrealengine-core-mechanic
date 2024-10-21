@@ -90,11 +90,3 @@ This project focuses on developing and testing core game mechanics using Unreal 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Roadmap
-
-- **Phase 1**: Implement basic combat mechanics (attacks, defenses).
-- **Phase 2**: Extend AI with additional behavior states (flanking, retreating).
-- **Phase 3**: Integration of multiplayer mechanics using Unreal’s networking layer.
-
-Feel free to suggest features or submit bug reports through the Issues tab.
